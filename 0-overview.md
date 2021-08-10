@@ -249,7 +249,7 @@ dht_key = hash(challenge)
 add_provider(challenge, provider, solution)
 ```
 
-These solutions may utilize TrustGraph. An example is effector service providers, or computing pool attribution: all peers with Trust from a particular public key are considered authorized to register themselves to a key. In this case, the challenge is that PK and some nonse.
+These solutions may utilize TrustGraph. An example is effector service providers, or computing pool attribution: all peers with Trust from a particular public key are considered authorized to register themselves to a key. In this case, the challenge is that PK and some nonce.
 
 ```
 owned_key_challenge = concat(owner_pk, max_trust_path_length, nonce)
